@@ -17,6 +17,16 @@
   padding-top: 30px;
 }
 
+.buttons-container {
+  background-color: #0d1116;
+  align-self: center;
+  align-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   margin: 0;
   font-size: 50px;
@@ -58,7 +68,13 @@
   background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
-  margin-right: 15px;
+}
+
+.collection-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  margin-top: 10px;
+  animation: gradient-animation 4s ease infinite;
 }
 
 .opensea-button {
